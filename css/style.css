@@ -50,7 +50,7 @@ a{
   font-weight: bolder;
 }
 .small-text {
-  padding: 8px 0px;
+  padding: 8px 20px 8px 0px;
 }
 
 button {
@@ -78,6 +78,7 @@ button {
   display: flex;
   flex-direction: column;
   margin-bottom: 64px;
+  margin-top: 32px;
 }
 
 .aaa{
@@ -108,9 +109,23 @@ button {
 .text {
   text-align: center;
   width: 250px;
+  color: gray;
+}
+.smallesttext {
+  font-size: x-small;
+}
+
+.third {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 128px;
 }
 
 
-div {
+
+
+
+.fourth, .footer, .third, .textt, .texttt {
   border: 2px rgb(19, 138, 39) solid;
 }
